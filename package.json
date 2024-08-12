@@ -1,0 +1,16 @@
+{
+  "name": "parasoft-e2e",
+  "version": "1.0.0",
+  "description": "Sample Demo Playwright E2E on Banking App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "typescript": "^5.5.4"
+  }
+}

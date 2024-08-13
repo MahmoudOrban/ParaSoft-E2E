@@ -9,6 +9,6 @@ export class AccountOverviewPage {
 
   async getAccountBalance(): Promise<string | null> {
     await this.page.click('text=Accounts Overview');
-    return this.page.textContent('.balance');
+    return this.page.textContent('balance');
   }
 }

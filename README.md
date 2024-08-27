@@ -18,27 +18,28 @@ This repository contains end-to-end (E2E) tests for the ParaSoft application usi
 
 ```bash
 Node.js (v12+)
-npm (v6+)
+npm (v6+)```
 
-###Installation
-####Clone the repository:
+### Installation
+#### Clone the repository:
 
 ```bash
 Copy code
 git clone https://github.com/MahmoudOrban/ParaSoft-E2E.git
-cd ParaSoft-E2E
-Install the required dependencies:
+cd ParaSoft-E2E```
 
-bash
-Copy code
+### Install the required dependencies:
+
+```bash
 npm install
-npx playwright install 
-Running the Tests
+npx playwright install```
+ 
+### Running the Tests
 To execute the tests, use the following command:
 
-bash
-Copy code
-npx playwright test
+```bash
+npx playwright test```
+
 This will run all tests defined in the /tests directory.
 
 Running Specific Tests

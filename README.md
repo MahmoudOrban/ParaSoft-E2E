@@ -12,14 +12,16 @@ This repository contains end-to-end (E2E) tests for the ParaSoft application usi
 - ***package.json**: Holds the metadata about the project and dependencies required to run the tests.
 ## Setup Instructions
  ***Prerequisites***
+ ---
    Make sure you have the following installed:
-
+---
 
 ```bash
 Node.js (v12+)
 npm (v6+)
-Installation
-Clone the repository:
+
+###Installation
+####Clone the repository:
 
 ```bash
 Copy code

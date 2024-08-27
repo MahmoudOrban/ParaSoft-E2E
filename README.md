@@ -5,22 +5,24 @@ Sample Demo Playwright E2E on Banking App
 This repository contains end-to-end (E2E) tests for the ParaSoft application using Playwright. The following guide will help you set up and understand the project structure.
 
 # Project Structure
-> /tests: Contains the E2E test files that describe the scenarios to be tested.
-/POM : Contian pages classes that encapusulate interaction with Specific Page
-playwright.config.js: This file contains the global configuration for Playwright, including browser settings, test directory, timeouts, etc.
-package.json: Holds the metadata about the project and dependencies required to run the tests.
+>
+- /tests: Contains the E2E test files that describe the scenarios to be tested.
+- /POM : Contian pages classes that encapusulate interaction with Specific Page
+- playwright.config.js: This file contains the global configuration for Playwright, including browser settings, test directory, timeouts, etc.
+- package.json: Holds the metadata about the project and dependencies required to run the tests.
 
 
 # Setup Instructions
 Prerequisites
 Make sure you have the following installed:
 
+```bash
 Node.js (v12+)
 npm (v6+)
 Installation
 Clone the repository:
 
-bash
+```bash
 Copy code
 git clone https://github.com/MahmoudOrban/ParaSoft-E2E.git
 cd ParaSoft-E2E

@@ -25,39 +25,42 @@ This repository contains end-to-end (E2E) tests for the ParaSoft application usi
 #### Clone the repository:
 
 ```bash
-Copy code
-git clone https://github.com/MahmoudOrban/ParaSoft-E2E.git
-cd ParaSoft-E2E```
+ git clone https://github.com/MahmoudOrban/ParaSoft-E2E.git
+ cd ParaSoft-E2E
+```
 
 ### Install the required dependencies:
-
 ```bash
-npm install
-npx playwright install```
+  npm install
+  npx playwright install
+```
  
 ### Running the Tests
 To execute the tests, use the following command:
 
 ```bash
-npx playwright test```
+ npx playwright test
+```
 
 This will run all tests defined in the /tests directory.
 
 Running Specific Tests
 To run a specific test file, use:
 
-bash
-Copy code
-npx playwright test tests/<test-file-name>.spec.js
-Configuration
+```bash
+
+npx playwright test tests/<test-file-name>.spec.ts
+```
+
+### Configuration
 To configure the test environment, modify the playwright.config.js file. Here you can specify:
 
 Browsers to run tests on (Chromium, Firefox, WebKit)
 Base URL for tests
 Test retries and timeout settings
 Writing Tests
-Create a new test: Add a new .spec.js file in the /tests directory.
+Create a new test: Add a new .spec.ts file in the /tests directory.
 Structure: Use Playwright's built-in assertions to interact with elements on the page and verify outcomes.
 
-Troubleshooting
+### Troubleshooting
 If you encounter any issues, ensure all dependencies are correctly installed, and your Node.js version is up to date.

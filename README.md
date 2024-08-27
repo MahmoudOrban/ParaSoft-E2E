@@ -9,7 +9,7 @@ This repository contains end-to-end (E2E) tests for the ParaSoft application usi
 - **/tests**: Contains the E2E test files that describe the scenarios to be tested.
 - **/POM** : Contian pages classes that encapusulate interaction with Specific Page
 - **playwright.config.ts**: This file contains the global configuration for Playwright, including browser settings, test directory, timeouts, etc.
-- ***package.json**: Holds the metadata about the project and dependencies required to run the tests.
+- **package.json**: Holds the metadata about the project and dependencies required to run the tests.
 ## Setup Instructions
  ***Prerequisites***
  ---

@@ -17,8 +17,9 @@ This repository contains end-to-end (E2E) tests for the ParaSoft application usi
 ---
 
 ```bash
-Node.js (v12+)
-npm (v6+)```
+ Node.js (v12+)
+ npm (v6+)
+```
 
 ### Installation
 #### Clone the repository:
